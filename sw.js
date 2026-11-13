@@ -1,11 +1,5 @@
-``
-
----
-
-### 2. Aggiorna `sw.js` (cambia `replog-v2` in `replog-v3` così si aggiorna subito)
-
 ```javascript
-const CACHE_NAME = 'replog-v3';
+const CACHE_NAME = 'replog-v4';
 const ASSETS = [
   './',
   './index.html',
