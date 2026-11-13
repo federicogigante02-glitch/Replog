@@ -1,5 +1,5 @@
 ```javascript
-const CACHE_NAME = 'replog-v4';
+const CACHE_NAME = 'replog-v5';
 const ASSETS = [
   './',
   './index.html',
