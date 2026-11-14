@@ -1,4 +1,5 @@
-const CACHE_NAME = 'replog-v6';
+```javascript
+const CACHE_NAME = 'replog-v7';
 const ASSETS = [
   './',
   './index.html',
@@ -34,3 +35,6 @@ self.addEventListener('fetch', event => {
       .catch(() => caches.match(event.request))
   );
 });
+```
+
+---
