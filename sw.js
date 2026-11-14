@@ -1,11 +1,10 @@
-```javascript
-const CACHE_NAME = 'replog-v5';
+const CACHE_NAME = 'replog-v6';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icon-180.png',
-  './icon-192.png',
+  './icon-180-1.png',
+  './icon-192-1.png',
   './icon-512.png'
 ];
 
@@ -35,6 +34,3 @@ self.addEventListener('fetch', event => {
       .catch(() => caches.match(event.request))
   );
 });
-```
-
----
